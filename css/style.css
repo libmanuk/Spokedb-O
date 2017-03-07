@@ -440,10 +440,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 18px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: normal;
   font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
-  color: #015581;
 }
 
 
@@ -464,11 +463,23 @@ h1 {
 h2 {
   font-size: 24px;
   line-height: 36px;
+  color: #444;
+  text-shadow: 1px 1px 1px #bbb;
+  padding-bottom: 10px;
+  margin-bottom: 0;
 }
 
 h3 {
   font-size: 18px;
   line-height: 18px;
+  width: 80%;
+  margin-right: 10%;
+  color: #444;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 14px;
   width: 80%;
   margin-right: 10%;
   color: #444;
@@ -539,7 +550,7 @@ h6 {
   color: #666;
 }
 
-h1 a, h2 a, h3 a {
+h1 a, h2 a, h3 a, h4 a {
   text-decoration: none;
 }
 
@@ -850,7 +861,7 @@ header:after {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1009,6 +1020,7 @@ header:after {
   overflow: auto;
   border-bottom: 1px solid #ccc;
   clear: both;
+  width: 80%;
 }
 #secondary-nav li, .secondary-nav li {
   padding: 1.5em 0;
@@ -1972,8 +1984,9 @@ footer .navigation a {
 }
 footer nav + p {
   text-align: right;
-  padding-right: 10px;
+  padding-right: 0px;
   color: Azure;
+  margin-right: 1%;
 }
 
 #footer-text {
@@ -2485,9 +2498,14 @@ footer nav + p {
             position: relative;
 }
 
+#tabs-container {
+    width: 95%;
+}
 
 .tabs-menu {
     height: 30px;
+    border-bottom: 1px solid #d4d4d1;
+    width: 90%;
     clear: both;
 	list-style-type:none;
 	margin:0;
@@ -2495,7 +2513,7 @@ footer nav + p {
 }
 
 
-.tabs-menu li {
+.tabs-menu li.current {
     height: 30px;
     line-height: 30px;
     float: left;
@@ -2513,13 +2531,13 @@ font-weight: normal;
 text-rendering: optimizelegibility;
 }
 
-.tabs-menu li.current {
+.tabs-menu li {
     height: 30px;
     line-height: 30px;
     float: left;
 	margin:0;
     margin-right: 10px;
-    background-color: #44506a;
+    background-color: #005177;
     border-top: 1px solid #d4d4d1;
     border-right: 1px solid #d4d4d1;
     border-left: 1px solid #d4d4d1;
@@ -2531,14 +2549,22 @@ font-weight: normal;
 text-rendering: optimizelegibility;
 }
 
-.tabs-menu li a {
+.tabs-menu .current a {
     padding: 10px;
     text-decoration: none; 
-    font-color: blue;
+    color: #000;
 }
 
-.tabs-menu .current a {
+.tabs-menu li a {
     color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.tabs-menu li .current a {
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
 }
 
 .tab {
@@ -2546,7 +2572,7 @@ text-rendering: optimizelegibility;
     background-color: #fff;
     float: left;
     margin-bottom: 20px;
-    width: auto;
+    width: 100%;
 }
 
 .tab-content {
