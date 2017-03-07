@@ -15,7 +15,7 @@
   <div id="tabs-container">
     <ul class="tabs-menu">
         <li class="current"><a href="#tab-1">Description</a></li>
-        <li><a href="#tab-2">Interview</a></li>
+        <li><a href="#tab-2">Access Interview</a></li>
     </ul>
     <div class="tab">
         <div id="tab-1" class="tab-content">
