@@ -7,73 +7,190 @@
     <p><?php echo $homepageText; ?></p>
     <?php endif; ?>
 
-<?php if ($homepageText = get_theme_option('Homepage Text')): ?>
-<?php $resources = $homepageText;
-list($parts0, $parts1, $parts2, $parts3, $parts4, $parts5, $parts6, $parts7) = explode(',', $homepageText);
-$htmlchnk1 = '<div id="container"><div id="row"><div id="left"><p><a href="';
-$htmlchnk2 = '"><img width="100%" src="';
-$htmlchnk3 = '"/></a></div><div id="middle"><p><a href="';
-$htmlchnk4 = '"><img width="100%" src="';
-$htmlchnk5 = '"/></a></div><div id="middle"><p><a href="';
-$htmlchnk6 = '"><img width="100%" src="';
-$htmlchnk7 = '"/></a></div><div id="right"><p><a href="';
-$htmlchnk8 = '"><img width="100%" src="';
-$htmlchnk9 = '"/></a></div></div></div>';
-$row = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3 . $parts3 . $htmlchnk4 . $parts2 . $htmlchnk5 . $parts5 . $htmlchnk6 . $parts4 . $htmlchnk7 . $parts7 . $htmlchnk8 . $parts6 . $htmlchnk9;
-echo $row;
-?>
-<?php endif; ?>
 
-<?php if ($homepageText2 = get_theme_option('Homepage Text2')): ?>
-<?php $resources = $homepageText2;
-list($parts0, $parts1, $parts2, $parts3, $parts4, $parts5, $parts6, $parts7) = explode(',', $homepageText2);
-$htmlchnk1 = '<div id="container"><div id="row"><div id="left"><p><a href="';
+<div id="container">
+<div id="row">
+<?php if ($homepageText16 = get_theme_option('Homepage Text16')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText16);
+$htmlchnk1 = '<div id="left"><p><a href="';
 $htmlchnk2 = '"><img width="100%" src="';
-$htmlchnk3 = '"/></a></div><div id="middle"><p><a href="';
-$htmlchnk4 = '"><img width="100%" src="';
-$htmlchnk5 = '"/></a></div><div id="middle"><p><a href="';
-$htmlchnk6 = '"><img width="100%" src="';
-$htmlchnk7 = '"/></a></div><div id="right"><p><a href="';
-$htmlchnk8 = '"><img width="100%" src="';
-$htmlchnk9 = '"/></a></div></div></div>';
-$row = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3 . $parts3 . $htmlchnk4 . $parts2 . $htmlchnk5 . $parts5 . $htmlchnk6 . $parts4 . $htmlchnk7 . $parts7 . $htmlchnk8 . $parts6 . $htmlchnk9;
-echo $row;
+$htmlchnk3 = '"/></a></div>';
+$cell01 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell01;
 ?>
 <?php endif; ?>
+<?php if ($homepageText01 = get_theme_option('Homepage Text01')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText01);
+$htmlchnk1 = '<div id="middle"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell02 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell02;
+?>
+<?php endif; ?>
+<?php if ($homepageText02 = get_theme_option('Homepage Text02')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText02);
+$htmlchnk1 = '<div id="middle"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell03 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell03;
+?>
+<?php endif; ?>
+<?php if ($homepageText03 = get_theme_option('Homepage Text03')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText03);
+$htmlchnk1 = '<div id="right"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell04 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell04;
+?>
+<?php endif; ?>
+</div></div>
 
-<?php if ($homepageText3 = get_theme_option('Homepage Text3')): ?>
-<?php $resources = $homepageText3;
-list($parts0, $parts1, $parts2, $parts3, $parts4, $parts5, $parts6, $parts7) = explode(',', $homepageText3);
-$htmlchnk1 = '<div id="container"><div id="row"><div id="left"><p><a href="';
-$htmlchnk2 = '"><img width="100%" src="';
-$htmlchnk3 = '"/></a></div><div id="middle"><p><a href="';
-$htmlchnk4 = '"><img width="100%" src="';
-$htmlchnk5 = '"/></a></div><div id="middle"><p><a href="';
-$htmlchnk6 = '"><img width="100%" src="';
-$htmlchnk7 = '"/></a></div><div id="right"><p><a href="';
-$htmlchnk8 = '"><img width="100%" src="';
-$htmlchnk9 = '"/></a></div></div></div>';
-$row = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3 . $parts3 . $htmlchnk4 . $parts2 . $htmlchnk5 . $parts5 . $htmlchnk6 . $parts4 . $htmlchnk7 . $parts7 . $htmlchnk8 . $parts6 . $htmlchnk9;
-echo $row;
-?>
-<?php endif; ?>
 
-<?php if ($homepageText4 = get_theme_option('Homepage Text4')): ?>
-<?php $resources = $homepageText4;
-list($parts0, $parts1, $parts2, $parts3, $parts4, $parts5, $parts6, $parts7) = explode(',', $homepageText4);
-$htmlchnk1 = '<div id="container"><div id="row"><div id="left"><p><a href="';
+
+
+
+<div id="container">
+<div id="row">
+<?php if ($homepageText04 = get_theme_option('Homepage Text04')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText04);
+$htmlchnk1 = '<div id="left"><p><a href="';
 $htmlchnk2 = '"><img width="100%" src="';
-$htmlchnk3 = '"/></a></div><div id="middle"><p><a href="';
-$htmlchnk4 = '"><img width="100%" src="';
-$htmlchnk5 = '"/></a></div><div id="middle"><p><a href="';
-$htmlchnk6 = '"><img width="100%" src="';
-$htmlchnk7 = '"/></a></div><div id="right"><p><a href="';
-$htmlchnk8 = '"><img width="100%" src="';
-$htmlchnk9 = '"/></a></div></div></div>';
-$row = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3 . $parts3 . $htmlchnk4 . $parts2 . $htmlchnk5 . $parts5 . $htmlchnk6 . $parts4 . $htmlchnk7 . $parts7 . $htmlchnk8 . $parts6 . $htmlchnk9;
-echo $row;
+$htmlchnk3 = '"/></a></div>';
+$cell01 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell01;
 ?>
 <?php endif; ?>
+<?php if ($homepageText05 = get_theme_option('Homepage Text05')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText05);
+$htmlchnk1 = '<div id="middle"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell02 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell02;
+?>
+<?php endif; ?>
+<?php if ($homepageText06 = get_theme_option('Homepage Text06')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText06);
+$htmlchnk1 = '<div id="middle"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell03 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell03;
+?>
+<?php endif; ?>
+<?php if ($homepageText07 = get_theme_option('Homepage Text07')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText07);
+$htmlchnk1 = '<div id="right"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell04 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell04;
+?>
+<?php endif; ?>
+</div></div>
+
+
+<div id="container">
+<div id="row">
+<?php if ($homepageText08 = get_theme_option('Homepage Text08')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText08);
+$htmlchnk1 = '<div id="left"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell01 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell01;
+?>
+<?php endif; ?>
+<?php if ($homepageText09 = get_theme_option('Homepage Text09')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText09);
+$htmlchnk1 = '<div id="middle"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell02 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell02;
+?>
+<?php endif; ?>
+<?php if ($homepageText10 = get_theme_option('Homepage Text10')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText10);
+$htmlchnk1 = '<div id="middle"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell03 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell03;
+?>
+<?php endif; ?>
+<?php if ($homepageText11 = get_theme_option('Homepage Text11')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText11);
+$htmlchnk1 = '<div id="right"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell04 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell04;
+?>
+<?php endif; ?>
+</div></div>
+
+
+
+<div id="container">
+<div id="row">
+<?php if ($homepageText12 = get_theme_option('Homepage Text12')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText12);
+$htmlchnk1 = '<div id="left"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell01 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell01;
+?>
+<?php endif; ?>
+<?php if ($homepageText13 = get_theme_option('Homepage Text13')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText13);
+$htmlchnk1 = '<div id="middle"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell02 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell02;
+?>
+<?php endif; ?>
+<?php if ($homepageText14 = get_theme_option('Homepage Text14')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText14);
+$htmlchnk1 = '<div id="middle"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell03 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell03;
+?>
+<?php endif; ?>
+<?php if ($homepageText15 = get_theme_option('Homepage Text15')): ?>
+<?php 
+list($parts0, $parts1) = explode(',', $homepageText15);
+$htmlchnk1 = '<div id="right"><p><a href="';
+$htmlchnk2 = '"><img width="100%" src="';
+$htmlchnk3 = '"/></a></div>';
+$cell04 = $htmlchnk1 . $parts1 . $htmlchnk2 . $parts0 . $htmlchnk3;
+echo $cell04;
+?>
+<?php endif; ?>
+</div></div>
+
 
 
     <?php if (get_theme_option('Display Featured Item') == 1): ?>
