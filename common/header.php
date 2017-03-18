@@ -52,6 +52,20 @@ $(document).ready(function() {
 
 </script>
 
+<script type='text/javascript'>
+$(function () {
+    var reloaded = false;
+
+    $('#accessInterview').on('click', function () {
+        if (!reloaded) {
+            document.getElementById('iframeid').src += '';
+            reloaded = true;
+        }
+        return true;
+    });
+}); 
+</script>
+
 </head>
  <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a>
