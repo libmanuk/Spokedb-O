@@ -56,6 +56,7 @@ window.onresize = function(event) {
 </script>
 
 
+
 <script type="text/javascript">
     jQuery(document).ready(function(){
         Omeka.showAdvancedForm();
