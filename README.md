@@ -14,14 +14,14 @@ This theme is intended for use with the following Omeka OHMS plugins:
 
 These additional Omeka plugins are required:
 
-* SimpleVocab
+* <a href="https://github.com/omeka/plugin-SimpleVocab" target="_blank">SimpleVocab</a>
 
 
 These additional Omeka plugins are recommended:
 
 * HideElements
-* SimplePages
-* LCSuggest
+* <a href="https://github.com/omeka/plugin-SimplePages" target="_blank">SimplePages</a>
+* <a href="https://github.com/omeka/plugin-LcSuggest" target="_blank">LcSuggest</a>
 
 
 
