@@ -1,6 +1,8 @@
 # Spokedbo
 An Omeka Theme for Oral History and the OHMS Metadata Synchronizer.
 
+This theme is based on the <a href="https://kentuckoralhistory.org" target="_blank"><img src="https://kentuckyoralhistory.org/spoke-logo2.png"/></a> oral history database at the Louie B. Nunn Center for Oral History at the University of Kentucky.
+
 This theme is intended for use with the following Omeka OHMS plugins:
 
 * <a href="https://github.com/libmanuk/OHMSElementSet" target="_blank">OHMSElementSet</a>
