@@ -19,7 +19,7 @@ These additional Omeka plugins are required:
 
 These additional Omeka plugins are recommended:
 
-* HideElements
+* <a href="https://github.com/zerocrates/HideElements" target="_blank">HideElements</a>
 * <a href="https://github.com/omeka/plugin-SimplePages" target="_blank">SimplePages</a>
 * <a href="https://github.com/omeka/plugin-LcSuggest" target="_blank">LcSuggest</a>
 
