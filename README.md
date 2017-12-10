@@ -25,7 +25,7 @@ These additional Omeka plugins are recommended:
 
 ## Omeka 
 
-The SPOKEdbo theme works with the <a href="http://omeka.org/classic/" target="_blank">Omeka Classic</a> content management software.
+The SPOKEdbo theme works with the <a href="http://omeka.org/classic/" target="_blank">Omeka Classic</a> content management system.
 
 ## OHMS
 
