@@ -21,6 +21,7 @@ These additional Omeka plugins are recommended:
 
 * HideElements
 * SimplePages
+* LCSuggest
 
 
 
