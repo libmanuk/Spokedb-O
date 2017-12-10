@@ -3,7 +3,7 @@ An Omeka Theme for Oral History and the OHMS Metadata Synchronizer.
 
 This theme is intended for use with the following Omeka OHMS plugins:
 
-OHMSElementSet (https://github.com/libmanuk/OHMSElementSet)
+* <a href="https://github.com/libmanuk/OHMSElementSet">OHMSElementSet</a>
 
 OHMSObject (https://github.com/libmanuk/OHMSObject)
 
