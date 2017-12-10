@@ -20,6 +20,7 @@ These additional Omeka plugins are required:
 These additional Omeka plugins are recommended:
 
 * HideElements
+* SimplePages
 
 
 
