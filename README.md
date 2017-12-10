@@ -31,5 +31,9 @@ The SPOKEdbo theme works with the <a href="http://omeka.org/classic/" target="_b
 
 The <a href="http://www.oralhistoryonline.org/" target="_blank">OHMS (Oral History Metadata Synchronizer)</a> and <a href="https://github.com/uklibraries/ohms-viewer" target="_blank">OHMS Viewer</a> software is used to produce the metadata files for use with the SPOKEdbo theme.
 
+## Demonstration
+
+Visit our <a href="http://nunncenterdev.org/spokedbo/" target="_blank">demonstration</a> site.
+
 
 
