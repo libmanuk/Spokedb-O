@@ -23,6 +23,13 @@ These additional Omeka plugins are recommended:
 * <a href="https://github.com/omeka/plugin-SimplePages" target="_blank">SimplePages</a>
 * <a href="https://github.com/omeka/plugin-LcSuggest" target="_blank">LcSuggest</a>
 
+## Omeka 
+
+The SPOKEdbo theme works with the <a href="http://omeka.org/classic/" target="_blank">Omeka Classic</a> content management software.
+
+## OHMS
+
+The <a href="http://www.oralhistoryonline.org/" target="_blank">OHMS (Oral History Metadata Synchronizer)</a> and <a href="https://github.com/uklibraries/ohms-viewer" target="_blank">OHMS Viewer</a> software is used to produce the metadata files for use with the SPOKEdbo theme.
 
 
 
