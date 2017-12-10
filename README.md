@@ -10,7 +10,7 @@ This theme is intended for use with the following Omeka OHMS plugins:
   * Allows for use of the OHMS Viewer as an embedded object within Omeka item views.
   
 * <a href="https://github.com/libmanuk/OHMSImport" target="_blank">OHMSImport</a>
-  * Allows administrators to batch upload .zip files containing valid OHMS .xml files in order to create new records in Omeka.
+  * Allows Omeka administrators to batch upload .zip files containing valid OHMS .xml files in order to create new records in Omeka.
 
 These additional Omeka plugins are required:
 
