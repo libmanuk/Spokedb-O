@@ -2592,3 +2592,18 @@ text-rendering: optimizelegibility;
  display: block;   
 }
 
+.reference-pagination.pagination {
+   width: 80% !important;
+   display: block !important;
+   margin-left:auto;
+   margin-right:auto;
+   padding-bottom: 100px;
+}
+
+#reference-headings {
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+ padding-bottom: 100px;
+}
