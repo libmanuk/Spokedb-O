@@ -25,6 +25,7 @@ These additional Omeka plugins are recommended:
 * <a href="https://github.com/omeka/plugin-SimplePages" target="_blank">SimplePages</a>
 * <a href="https://github.com/omeka/plugin-LcSuggest" target="_blank">LcSuggest</a>
 * <a href="https://github.com/omeka/plugin-SearchByMetadata" target="_blank">SearchByMetadata</a>
+* <a href="https://github.com/Daniel-KM/Reference" target="_blank">Reference</a>
 
 ## Omeka 
 
