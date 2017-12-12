@@ -27,6 +27,7 @@ These additional Omeka plugins are recommended:
 * <a href="https://github.com/omeka/plugin-SearchByMetadata" target="_blank">SearchByMetadata</a>
 * <a href="https://github.com/Daniel-KM/Reference" target="_blank">Reference</a>
 * <a href="https://github.com/anuragji/DefaultSort" target="_blank">DefaultSort</a>
+* <a href="https://github.com/Daniel-KM/CleanUrl" target="_blank">CleanURL</a>
 
 ## Omeka 
 
