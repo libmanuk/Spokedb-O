@@ -33,14 +33,14 @@ if ('Item' === $recordType): ?>
                 <?php if ($recordImage = record_image($recordType, 'square_thumbnail')): ?>
                     <?php echo link_to($record, 'show', $recordImage, array('class' => 'image')); ?>
                 <?php endif; ?>
-Interview:<br/><a href="<?php echo record_url($record, 'show'); ?>"><?php echo $searchText['title'] ? $searchText['title'] : '[Unknown]'; ?></a><br/>Project:&nbsp;&nbsp;<?php echo link_to_collection_for_item(); ?><br/>
+<h4>Interview:</h4><br/><h2><a href="<?php echo record_url($record, 'show'); ?>"><?php echo $searchText['title'] ? $searchText['title'] : '[Unknown]'; ?></a></h2><h3><?php echo link_to_collection_for_item(); ?></h3><br/>
 <?php endif; ?>
 <?php
 if ('Collection' === $recordType): ?>
                 <?php if ($recordImage = record_image($recordType, 'square_thumbnail')): ?>
                     <?php echo link_to($record, 'show', $recordImage, array('class' => 'image')); ?>
                 <?php endif; ?>
-Project:<br/><a href="<?php echo record_url($record, 'show'); ?>"><?php echo $searchText['title'] ? $searchText['title'] : '[Unknown]'; ?></a><br/><br/>
+<h4>Project:</h4><h2><a href="<?php echo record_url($record, 'show'); ?>"><?php echo $searchText['title'] ? $searchText['title'] : '[Unknown]'; ?></a></h2><br/><br/>
 <?php endif; ?>
 </td>
             <!--<td>
