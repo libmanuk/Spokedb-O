@@ -39,7 +39,7 @@ The <a href="http://www.oralhistoryonline.org/" target="_blank">OHMS (Oral Histo
 
 ## Demonstration
 
-Visit our <a href="http://nunncenterdev.org/spokedbo/" target="_blank">demonstration</a> site.
+Visit the SPOKEdbo <a href="http://nunncenterdev.org/spokedbo/" target="_blank">demonstration</a> site.
 
 ## Quick Start
 
