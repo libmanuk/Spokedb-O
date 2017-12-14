@@ -24,8 +24,8 @@
 
         </div>
         <div id="tab-2" class="tab-content">
-    <?php if(metadata('item', array('Item Type Metadata', 'OHMS Object'))): ?>
-        <?php echo metadata('item', array('Item Type Metadata', 'OHMS Object')); ?>
+    <?php if(metadata('item', array('OHMS Element Set', 'OHMS Object'))): ?>
+        <?php echo metadata('item', array('OHMS Element Set', 'OHMS Object')); ?>
     <?php endif; ?>
         
         </div>
