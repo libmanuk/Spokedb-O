@@ -31,15 +31,15 @@ These additional Omeka plugins are recommended:
 
 ## Omeka 
 
-The SPOKEdbo theme works with the <a href="http://omeka.org/classic/" target="_blank">Omeka Classic</a> content management system.
+The SPOKEdb-O theme works with the <a href="http://omeka.org/classic/" target="_blank">Omeka Classic</a> content management system.
 
 ## OHMS
 
-The <a href="http://www.oralhistoryonline.org/" target="_blank">OHMS (Oral History Metadata Synchronizer)</a> and <a href="https://github.com/uklibraries/ohms-viewer" target="_blank">OHMS Viewer</a> software is used to produce the metadata files that work with the SPOKEdbo theme.
+The <a href="http://www.oralhistoryonline.org/" target="_blank">OHMS (Oral History Metadata Synchronizer)</a> and <a href="https://github.com/uklibraries/ohms-viewer" target="_blank">OHMS Viewer</a> software is used to produce the metadata files that work with the SPOKEdb-O theme.
 
 ## Demonstration
 
-Visit the SPOKEdbo <a href="http://nunncenterdev.org/spokedbo/" target="_blank">demonstration</a> site.
+Visit the SPOKEdb-O <a href="http://nunncenterdev.org/spokedbo/" target="_blank">demonstration</a> site.
 
 ## Quick Start
 
