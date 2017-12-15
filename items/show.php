@@ -11,6 +11,9 @@
 </tr>
 </table>
 
+<?php $format = metadata('item', array('OHMS Element Set', 'Interview Format')); ?>
+
+<?php if ('audio' === $format || 'video' === $format ): ?>
 
   <div id="tabs-container">
     <ul class="tabs-menu">
@@ -26,35 +29,70 @@
         <div id="tab-2" class="tab-content">
     <?php if(metadata('item', array('OHMS Element Set', 'OHMS Object'))): ?>
         <?php echo metadata('item', array('OHMS Element Set', 'OHMS Object')); ?>
-    <?php endif; ?>
-        
+        <?php endif; ?>
         </div>
    
+   
+   <!-- The following prints a citation for this item. -->
+    <div id="item-citation" class="element">
+        <h3><?php echo __('Citation'); ?></h3>
+        <div class="element-text"><?php echo metadata('item','citation',array('no_escape'=>true)); ?></div>
     </div>
-</div>
-
-  
-
-
-
-
-
+    
 <!-- The following prints a list of all tags associated with the item -->
     <?php if (metadata('item','has tags')): ?>
     <div id="item-tags" class="element">
         <h3><?php echo __('Tags'); ?></h3>
         <div class="element-text"><?php echo tag_string('item'); ?></div>
     </div>
+<?php endif; ?>    
+   
+   
+    </div>
+    </div>
+           <?php else: ?> 
 
+  
+    <!-- Items metadata -->
+        <div id="tab-1" class="tab-content">
+    <div id="item-metadata">
+        <?php echo all_element_texts('item'); ?>
+    </div>
+</div>
+    <h3><?php echo __('Files'); ?></h3>
+    <div id="item-images">
+         <?php echo files_for_item(); ?>
+    </div>
 
-    <?php endif;?>
+   <?php if(metadata('item','Collection Name')): ?>
+      <div id="collection" class="element">
+        <h3><?php echo __('Collection'); ?></h3>
+        <div class="element-text"><?php echo link_to_collection_for_item(); ?></div>
+      </div>
 
-
+    
+    <?php endif; ?>
+    
+ 
 <!-- The following prints a citation for this item. -->
     <div id="item-citation" class="element">
         <h3><?php echo __('Citation'); ?></h3>
         <div class="element-text"><?php echo metadata('item','citation',array('no_escape'=>true)); ?></div>
     </div>
+    
+<!-- The following prints a list of all tags associated with the item -->
+    <?php if (metadata('item','has tags')): ?>
+    <div id="item-tags" class="element">
+        <h3><?php echo __('Tags'); ?></h3>
+        <div class="element-text"><?php echo tag_string('item'); ?></div>
+    </div>
+<?php endif; ?>    
+  
+           <?php endif; ?>   
+
+
+    </div>
+
        <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
 
 
@@ -67,7 +105,7 @@
 
 <!-- End of Primary. -->
 
-</div>
+
 
 
 
