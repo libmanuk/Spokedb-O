@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name=viewport content="width=450">
+    <link rel="shortcut icon" href="<?php echo img('favicon.ico'); ?>" type="image/vnd.microsoft.icon" />
     <?php if ($description = option('description')): ?>
     <meta name="description" content="<?php echo $description; ?>" />
     <?php endif; ?>
