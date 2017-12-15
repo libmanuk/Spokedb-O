@@ -32,7 +32,7 @@
         <?php endif; ?>
         </div>
    
-   
+   <br/><br/><br/>
    <!-- The following prints a citation for this item. -->
     <div id="item-citation" class="element">
         <h3><?php echo __('Citation'); ?></h3>
