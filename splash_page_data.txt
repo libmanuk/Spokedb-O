@@ -1,12 +1,9 @@
-https://oralhistory.uky.edu/theme_buttons/agriculture2_0.png,link1,https://oralhistory.uky.edu/theme_buttons/appalachia_0.png,link2,https://oralhistory.uky.edu/theme_buttons/art1.png,link3,https://oralhistory.uky.edu/theme_buttons/athletics.png,link4
+PATTERN: <path_to_image>,<link>
 
+NOTE: The <path_to_image> can be absolute or relative.  It can also be a URL.  The <link> can be a relative link within your Omeka install or a URL.
 
+SAMPLES:
 
-https://oralhistory.uky.edu/theme_buttons/communities.png,link1,https://oralhistory.uky.edu/theme_buttons/diversity_0.png,link2,https://oralhistory.uky.edu/theme_buttons/education3.png,link3,https://oralhistory.uky.edu/theme_buttons/gender2.png,link4
+https://nunncenter.dev/theme_buttons/agriculture2_0.png,/spokedbo/search?query=sample&query_type=keyword&record_types%5B%5D=Item&record_types%5B%5D=File&record_types%5B%5D=Collection&submit_search=Search
 
-
-https://oralhistory.uky.edu/theme_buttons/international.png,link1,https://oralhistory.uky.edu/theme_buttons/healthcare2.png,link2,https://oralhistory.uky.edu/theme_buttons/industry.png,link3,https://oralhistory.uky.edu/theme_buttons/organizations.png,link4
-
-
-
-https://oralhistory.uky.edu/theme_buttons/politics.png,link1,https://oralhistory.uky.edu/theme_buttons/religion.png,link2,https://oralhistory.uky.edu/theme_buttons/UK2.png,link3,https://oralhistory.uky.edu/theme_buttons/veterans.png,link4
+/theme_buttons/agriculture2_0.png,http://nunncenter.dev/spokedbo/search?query=sample&query_type=keyword&record_types%5B%5D=Item&record_types%5B%5D=File&record_types%5B%5D=Collection&submit_search=Search
