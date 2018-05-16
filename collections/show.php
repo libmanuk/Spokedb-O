@@ -14,7 +14,7 @@ $collectionTitle = strip_formatting(metadata('collection', array('Dublin Core', 
         <?php foreach (loop('items') as $item): ?>
         <?php $itemTitle = strip_formatting(metadata('item', array('Dublin Core', 'Title'))); ?>
         <div class="item hentry">
-            <h3><?php echo link_to_item($itemTitle, array('class'=>'permalink')); ?> (<?php echo metadata('item', array('OHMS Element Set','Interview Accession')); ?>)</h3>
+            <h3><?php echo link_to_item($itemTitle, array('class'=>'permalink')); ?> (<?php echo metadata('item', array('Dublin Core','Identifier')); ?>)</h3>
 
             <?php if (metadata('item', 'has thumbnail')): ?>
             <div class="item-img">
