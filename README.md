@@ -5,9 +5,6 @@ This theme is based on the <a href="https://kentuckoralhistory.org" target="_bla
 
 This theme is intended for use with the following Omeka OHMS plugins:
 
-* <a href="https://github.com/libmanuk/OHMSElementSet" target="_blank">OHMSElementSet</a>
-  * Creates a custom metadata element set for OHMS objects.
-
 * <a href="https://github.com/libmanuk/OHMSObject" target="_blank">OHMSObject</a>
   * Allows for use of the OHMS Viewer as an embedded object within Omeka item views.
   
