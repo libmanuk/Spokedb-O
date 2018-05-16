@@ -11,7 +11,7 @@
 </tr>
 </table>
 
-<?php $format = metadata('item', array('OHMS Element Set', 'Interview Format')); ?>
+<?php $format = metadata('item', array('Dublin Core', 'Format')); ?>
 
 <?php if ('audio' === $format || 'video' === $format ): ?>
 
@@ -27,8 +27,8 @@
 
         </div>
         <div id="tab-2" class="tab-content">
-    <?php if(metadata('item', array('OHMS Element Set', 'OHMS Object'))): ?>
-        <?php echo metadata('item', array('OHMS Element Set', 'OHMS Object')); ?>
+    <?php if(metadata('item', array('Item Type Metadata', 'OHMS Object'))): ?>
+        <?php echo metadata('item', array('Item Type Metadata', 'OHMS Object')); ?>
         <?php endif; ?>
         </div>
    
