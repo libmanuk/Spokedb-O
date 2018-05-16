@@ -3,6 +3,14 @@ An Omeka Theme for Oral History and the OHMS Metadata Synchronizer.
 
 This theme is based on the <a href="https://kentuckoralhistory.org" target="_blank">SPOKEdb oral history database</a> at the <a href="http://nunncenter.org/"  target="_blank">Louie B. Nunn Center for Oral History</a> at the <a href="https://www.uky.edu" target="_blank">University of Kentucky</a>.
 
+This theme is used with Dublin Core metadata and the Omeka Oral History Item Type.  Three additional fields are required.  These need be added to the Omeka Oral History Item Type and are described below.
+
+* OHMS Object
+
+* OHMS Object Text
+
+* Interview Keyword
+
 This theme is intended for use with the following Omeka OHMS plugins:
 
 * <a href="https://github.com/libmanuk/OHMSObject" target="_blank">OHMSObject</a>
