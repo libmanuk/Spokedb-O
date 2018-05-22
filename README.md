@@ -50,3 +50,5 @@ Visit the SPOKEdb-O <a href="http://nunncenterdev.org/spokedbo/" target="_blank"
 
 Coming soon!
 
+## 
+This theme was created through a partnership between the Louie B. Nunn Center for Oral History and West Chester University and a collaboration between Eric C. Weig, Doug Boyd, and Janneken Smucker.   
