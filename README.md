@@ -1,6 +1,8 @@
 # Spokedb-O
 An Omeka Theme for Oral History and the OHMS Metadata Synchronizer.
 
+<span style="color:red">IMPORTANT</span>: This theme is currently being developed and is not ready for installation or implementation.
+
 This theme is based on the <a href="https://kentuckoralhistory.org" target="_blank">SPOKEdb oral history database</a> at the <a href="http://nunncenter.org/"  target="_blank">Louie B. Nunn Center for Oral History</a> at the <a href="https://www.uky.edu" target="_blank">University of Kentucky</a>.
 
 This theme is used with Dublin Core metadata and the Omeka Oral History Item Type.  Three additional fields are required.  These need be added to the Omeka Oral History Item Type and are described below.
