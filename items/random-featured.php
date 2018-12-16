@@ -19,3 +19,4 @@
 <?php else: ?>
     <p><?php echo __('No featured items are available.'); ?></p>
 <?php endif; ?>
+
